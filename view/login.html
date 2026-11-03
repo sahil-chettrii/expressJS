@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            background: #0a0a0a;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+
+        input {
+            display: block;
+            width: 250px;
+            padding: 12px;
+            margin-bottom: 15px;
+            background: #171717;
+            color: white;
+            border: 1px solid #333;
+            border-radius: 6px;
+        }
+
+        button {
+            padding: 11px 30px;
+            background: white;
+            color: black;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background: #cccccc;
+        }
+
+        a {
+            display: block;
+            margin-top: 20px;
+            color: #999;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login">
+        <h1>Welcome Back</h1>
+
+        <input type="email" placeholder="Enter Email">
+        <input type="password" placeholder="Enter Password">
+
+        <button>Login</button>
+
+        <a href="/">Back to Home</a>
+    </div>
+
+</body>
+</html>
